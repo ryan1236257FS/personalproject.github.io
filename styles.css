@@ -1,0 +1,128 @@
+ body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    background-color: #ffffff;
+ }
+ 
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ececec;
+    margin-top: 0px;
+    height: 70px;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  nav li {
+    margin: 0 1em;
+  }
+
+  nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+  }
+
+  nav a:hover {
+    color: rgb(25, 24, 24);
+    font-weight: 700;
+  }
+  
+  #header {
+    display: flex;
+  }
+  
+  #header img {
+    width: 100%;
+    height: 900px;
+  }
+  
+  #header_p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+  }
+  #social_header {
+    font-weight: 600;
+    font-size: 3vw;
+    margin-left: 15%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+  }
+  
+  .column {
+    float: left;
+    max-width: 50%;
+    text-align: middle;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    display: table;
+    clear: both;
+  }
+
+  #column_image {
+    max-width: 95%;
+  }
+
+  #column_text {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+  }
+
+  .column_2 {
+    display: flex;
+    float: right;
+    max-width: 50%;
+    text-align: middle;
+  }
+  #column_image_2 { 
+    max-width: 100%;
+    padding-top: 120px;
+  }
+
+  #column_text_2 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+    padding-top: 140px;
+    width: 45%;
+    padding-right: 45px;
+    padding-bottom: 90px;
+  }
+
+  #car_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+  
+  .a450 {
+    margin-top: 60px;
+  }
